@@ -1,0 +1,398 @@
+/* this is where all of your CSS styles go */
+
+body {
+	width: 100%;
+	height:auto;
+	position:relative;
+	display:block;
+	overflow:auto;
+	min-height:100%;
+}
+
+ul {
+	list-style-type: none;
+	line-height:200px;
+	text-align:center;
+}
+
+a {
+	color:black;
+	text-decoration: none;
+}
+
+a:visited { text-decoration: none; color:black;}
+a:hover { text-decoration: none; color:#cc00ff; }
+a:focus { text-decoration: none; color:#cc00ff; }
+a:active { text-decoration: none; color:#cc00ff; }
+
+ul li {
+	height: 50px;
+	text-align:center;
+	float: left;
+	margin-top:15px;
+	margin-left:60px;
+	display: inlineblock;
+	vertical-align:middle;
+	line-height: normal;
+
+}
+
+p {
+	font-weight:300;
+	text-align:left;
+}
+
+
+
+h3 {
+	font-family: open-sans, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size:10px;
+    line-height:0px;
+    text-indent:20px;
+}
+
+
+#longform {
+	width:600px;
+	position:absolute;
+	top:67px;
+	left:200px;	
+	font-family: open-sans, sans-serif;
+	font-style:normal;
+	font-weight:300;
+	text-align:left;	
+	color:black;
+	float:left;
+}
+
+#longform_tint {
+	background-image: url(../images/longform_tint.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:relative;
+	background-size:stretch;
+	width:1000px;
+	height:600px;
+	top:150px;
+	overflow: hidden;
+	z-index:0;
+
+	opacity: 0.1;
+	-webkit-animation: longform_fade 1.5s;
+	-webkit-animation-fill-mode: forwards;
+}
+
+#longform_line1 {
+	background-color:#4286f4;
+	width:5px;
+	height:2500px;
+	position:absolute;
+	left:100px;
+	top:94px;
+	z-index:-1;
+}
+
+#longform_line2 {
+	background-color:#4286f4;
+	width:5px;
+	height:2500px;
+	position:absolute;
+	left:930px;
+	top:94px;z-index:-1;
+}
+
+#article_one_title {
+	width:800px;
+	height:auto;
+	position:absolute;
+	left:124px;
+	top:75px;
+
+	-webkit-animation: article_one_title_move 1s;
+	-webkit-animation-fill-mode: forwards;
+
+}
+
+#article_one_c1 {
+	width:375px;
+	height:auto;
+	font-family: open-sans, sans-serif;
+	font-style:normal;
+	font-weight:300;
+	text-align:left;	
+	color:black;
+	position:absolute;
+	left:125px;
+	top:600px;
+}
+
+#article_one_c2 {
+	width:375px;
+	height:auto;
+	font-family: open-sans, sans-serif;
+	font-style:normal;
+	font-weight:300;
+	text-align:left;	
+	color:black;
+	position:absolute;
+	left:550px;
+	top:600px;
+}
+
+#article_two_c1 {
+	width:375px;
+	height:auto;
+	font-family: open-sans, sans-serif;
+	font-style:normal;
+	font-weight:300;
+	text-align:left;	
+	color:black;
+	position:absolute;
+	left:125px;
+	top:630px;
+}
+
+#article_two_c2 {
+	width:375px;
+	height:auto;
+	font-family: open-sans, sans-serif;
+	font-style:normal;
+	font-weight:300;
+	text-align:left;	
+	color:black;
+	position:absolute;
+	left:550px;
+	top:630px;
+}
+
+#article_one_image {
+	background-image: url(../images/Article.jpg);
+	width:531px;
+	height:401px;
+	position:absolute;
+	left:250px;
+	top:185px;	
+}
+
+#article_two_image {
+	background-image: url(../images/bonham.jpg);
+	width:540px;
+	height:405px;
+	position:absolute;
+	left:250px;
+	top:215px;
+}
+
+#article_two_video {
+	width:375px;
+	height:auto;
+	position: absolute;
+	left:250px;
+	top:1900px;
+}
+
+#navigation {
+	text-align:center;
+	background-color:#00c627;
+	font-family: open-sans, sans-serif;
+	font-style:normal;
+	font-weight:600;
+	position:relative;
+	width:1000px;
+	height: 50px;
+	top:-170px;
+	text-align:center;
+}
+
+#logo {
+	background-image: url(../images/argus_leader.png);
+	background-repeat:no-repeat;
+	position:relative;
+	background-size:stretch;
+	width:1000px;
+	height:300px;
+	top:-275px;
+	left:20px;
+	overflow: hidden;
+	z-index:1;
+}
+
+#background {
+	background-image: url(../images/falls_park.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	position:relative;
+	background-size:stretch;
+	width:1000px;
+	height:300px;
+	top:150px;
+	overflow: hidden;
+	z-index:0;
+}
+
+#article_image1 {
+	width:320px;
+	height:240px;
+	position: absolute;
+	left:125px;
+	top:550px;
+
+}
+
+#article_image2 {
+	width:320px;
+	height:240px;
+	position: absolute;
+	left:575px;
+	top:550px;
+}
+
+#article_image3 {
+	width: 320px;
+    height: 240px;
+    position: absolute;
+    left: 125px;
+    top: 950px;
+}
+
+#article_image4 {
+	width: 320px;
+    height: 240px;
+    position: absolute;
+    left: 575px;
+    top: 950px;
+}
+
+
+#article1 {	
+    background-color: #4286f4;
+    text-align: center;
+    padding: 1px;
+    font-family: open-sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    left: 575px;
+    top: 790px;
+    width: 318px;
+    height: auto;
+}
+
+article1:hover {
+
+}
+
+#article2 {	
+	background-color: #4286f4;
+    text-align: center;
+    padding: 1px;
+    font-family: open-sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    left: 125px;
+    top: 1190px;
+    position: absolute;
+    width: 318px;
+    height: auto;	
+}
+
+#article3 {	
+    background-color: #4286f4;
+    text-align: center;
+    padding: 1px;
+    font-family: open-sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    left: 575px;
+    top: 1190px;
+    width: 318px;
+    height: auto;
+}
+
+#article4 {	
+    background-color: #4286f4;
+    text-align: center;
+    padding: 1px;
+    font-family: open-sans, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    left: 125px;
+    top: 790px;
+    position: absolute;
+    width: 318px;
+    height: auto;
+}
+
+
+/* Ads */
+
+#mt_rushmoore_ad {
+	background-image: url(../images/mount_rushmoore.png);	
+	background-repeat:no-repeat;
+	width:200px;
+	height:200px;
+	position:absolute;
+}
+
+#space_ad {
+	background-image: url(../images/space_ad.png);
+	background-repeat:no-repeat;
+	width:200px;
+	height:1000px;
+	position:absolute;
+}
+
+#hotel_ad {
+	background-image: url(../images/hotel_california_ad.png);
+	background-repeat:no-repeat;
+	width:200px;
+	height:200px;
+	position:absolute;
+}
+
+#coke_ad{
+	background-image: .ad;
+}
+
+
+
+/* Animation */
+
+.hover-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hover-grow:hover,
+.hover-grow:focus,
+.hover-grow:active {
+    transform: scale(1.1);
+}
+
+@-webkit-keyframes article_scale {
+	0% {scale:1;}
+	100% {scale:1.5;}
+}
+
+@-webkit-keyframes longform_fade {
+	0% {opacity:0.1;}
+	100% {opacity:1;}
+}
+
+@-webkit-keyframes article_one_title_move {
+	0% {left:-1000px}
+	100% {left:124px;}
+}
